@@ -16,14 +16,12 @@ Test Accuracy = 0.9904000163078308
 
 For Baseline: 1,Tried with different activation fucntions in filters. 
 2, Tried bigger filters than (3,3), also tried average pooling.
-3,
 
-For Pruning: 1, 
 
 4, Analysis of results.
 
 I used l2 norm of a filter as pruning criteria.
-Baseline Model: 28(3,3,1) filter, (2,2) max_pooling, 28(3,3,1) filter, (2,2) max pooling, 1 FC layer, 1 softmax layer. 
+Baseline Model: 28(3,3,1) filter, (2,2) max_pooling, 28(3,3,28) filter, (2,2) max pooling, 1 FC layer, 1 softmax layer. 
 Pruned Model: 1(3,3,1) filter, (2,2) max_pooling, 2(3,3,1) filter, (2,2) max_pooling, 1 FC layer, 1 softmax layer. 
 
 Baseline Model parameters count:51630
