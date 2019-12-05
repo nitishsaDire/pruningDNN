@@ -3,6 +3,8 @@
 a, Used CNN because it gives better result for image dataset.
 b, Tried different combinations for filters dimension, number of filters, pooling dimensions, and chose the best model based on experimental results.
 c, For pruning, implemeted the l2 heuristic as defined in the paper.
+d, Used more than 10 epochs for baseline training, it lead to over-fitting.
+
 
 2, Baseline Classification and Accuracy.
 
@@ -17,6 +19,7 @@ Test Accuracy = 0.9904000163078308
 For Baseline: 1,Tried with different activation fucntions in filters. 
 2, Tried bigger filters than (3,3), also tried average pooling.
 
+For Pruning: 1, Used more than 5 epochs (10 and 15) per training after pruning. 
 
 4, Analysis of results.
 
