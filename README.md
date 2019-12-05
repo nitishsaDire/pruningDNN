@@ -4,6 +4,7 @@ a, Used CNN because it gives better result for image dataset.
 b, Tried different combinations for filters dimension, number of filters, pooling dimensions, and chose the best model based on experimental results.
 c, For pruning, implemeted the l2 heuristic as defined in the paper.
 d, Used more than 10 epochs for baseline training, it lead to over-fitting.
+e, I have preserved at least one filter every convolution layer, So that whole of the layer doesn't get pruned.
 
 
 2, Baseline Classification and Accuracy.
